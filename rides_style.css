@@ -1,0 +1,45 @@
+﻿.top_img {
+    text-align: center;
+    width: 100%;
+    height:100%;
+    object-fit: contain;
+}
+
+/*buttons style*/
+.button {
+	height:35px;
+	width:200px;
+    text-align: center;
+    color: white;
+	background-color: SlateGray;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+/*buttons style on click*/
+.buttonSettings:active {
+    box-shadow: 3px 3px 5px grey;
+}
+
+/*buttons style on mouse over*/
+.buttonSettings:hover {
+    background-color: #686868;
+}
+
+.list1 {
+  max-width: 500px;  
+  overflow:auto;
+  display: block;
+}
+
+/*input text fields style*/
+input[type=text], input[type=number] {
+    padding: 12px 15px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 2px solid SlateGray;
+    border-radius: 3px;
+	display: inline-block
+}
